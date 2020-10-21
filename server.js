@@ -6,7 +6,7 @@ const http = require('http');
 const bodyParser = require('body-parser');
 
 const port = 8081;
-const host = '0.0.0.0';
+const host = '127.0.0.1';
 
 const app = express();
 const server = http.createServer(app);
